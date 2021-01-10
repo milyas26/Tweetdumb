@@ -1,0 +1,14 @@
+.related-person {
+    background-color: #192734;
+    border-radius: 20px;
+    padding: 10px 0;
+}
+
+.related-person p{
+    padding: 0 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #383e42;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+}

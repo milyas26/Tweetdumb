@@ -28,8 +28,30 @@
 .trend-item .follow-item .follow-username {
     display: flex;
     flex-direction: column;
+
 }
 
 .trend-item .follow-item .follow-username p:first-child {
     color: #fff;
+    font-weight: 700;
+    margin: 0;
+}
+
+.trend-item .follow-item .follow-username span {
+    color: #63707a;
+}
+
+.trend-item.full {
+    border: none;
+}
+
+.trend-item.full p {
+    border: none;
+    padding: 0;
+}
+
+.trend-item.full .group2 p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5px;
 }

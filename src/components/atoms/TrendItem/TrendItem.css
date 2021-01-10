@@ -1,19 +1,32 @@
-.trend-item {
+.trend-item-wrapper {
     border-bottom: 1px solid #38444D;
     padding: 10px 20px;
     cursor: pointer;
+    display: flex;
+    justify-content: space-between;
 }
 
-.trend-item:hover{
+.trend-item-wrapper:hover{
     background-color: #253341;
 }
 
-.trend-item span {
+.trend-item-wrapper .trend-item {
+    padding: 0;
+    border: none;
+}
+
+.trend-item-wrapper .trend-item span {
     font-size: 14px;
     color: #63707a;
 }
 
-.trend-item p {
+.trend-item-wrapper .trend-item p {
     margin: 0;
     font-weight: 700;
+}
+
+
+.trend-item-wrapper .icon svg{
+    fill: #63707a;
+    width: 24px;
 }

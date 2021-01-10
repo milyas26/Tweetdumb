@@ -72,12 +72,15 @@
 .homepage .right .trend .icon {
     width: 28px;
     fill: #1DA1F2;
-    margin-right: 20px;
 }
 
 .homepage .right .trend .trend-header {
     display: flex;
     justify-content: space-between;
+}
+
+.homepage .right .trend .trend-header .icon {
+    margin-right: 20px;
 }
 
 .homepage .right .trend .more {

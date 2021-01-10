@@ -16,6 +16,11 @@
     margin: 5px 0;
 }
 
+.tweet-item .user-info .detail .username-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
 .tweet-item .user-info .detail .username {
     margin-left: 10px;
     display: flex;
@@ -31,6 +36,28 @@
 
 .tweet-item .user-info .detail .username span {
     color: #8899A6;
+}
+
+.tweet-item .user-info .detail .reply-wrapper {
+    display: flex;
+
+}
+
+.tweet-item .user-info .detail .reply {
+    padding: 0 10px;
+}
+
+.tweet-item .user-info .detail .reply span:first-child {
+    color: #8899A6;
+}
+
+.tweet-item .user-info .detail .reply span:last-child{
+    color: #1DA1F2;
+}
+
+.tweet-item .user-info .detail .icon {
+    width: 24px;
+    fill: #888888;
 }
 
 .tweet-item .user-info .detail .content {

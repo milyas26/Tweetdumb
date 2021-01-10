@@ -1,0 +1,79 @@
+.detail-page .middle .content-middle .wrapper-user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+.detail-page .middle .content-middle .wrapper-user .user {
+    display: flex;
+}
+
+.detail-page .middle .content-middle .wrapper-user .user .detail-user {
+    margin-left: 10px;
+}
+
+.detail-page .middle .content-middle .wrapper-user .user .detail-user p{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.detail-page .middle .content-middle .wrapper-user .user .detail-user span {
+    color: #8899A6;
+}
+
+.detail-page .middle .content-middle .wrapper-user .icon{
+    display: block;
+    width: 20px;
+    fill: #fff;
+}
+
+.detail-page .middle .content-tweet {
+    padding: 0 20px;
+}
+
+.detail-page .middle .content-tweet p {
+    margin: 0;
+    font-size: 24px;
+}
+
+.detail-page .middle .content-tweet .stats {
+    color: #8899A6;
+    margin: 10px 0;
+}
+
+.detail-page .middle .content-tweet .detail-stats {
+    display: flex;
+    border-top: 1px solid #383e42;
+    border-bottom: 1px solid #383e42;
+    padding: 10px 0;
+}
+
+.detail-page .middle .content-tweet .detail-stats .stats-item {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.detail-page .middle .content-tweet .detail-stats .stats-item p {
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.detail-page .middle .content-tweet .detail-stats .stats-item span {
+    color: #8899A6;
+}
+
+.detail-page .middle .stats-icons {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    border-bottom: 1px solid #383e42;
+}
+
+.detail-page .middle  .stats-icons .icons .item-tweet svg {
+    width: 24px;
+    fill: #8899A6;
+}

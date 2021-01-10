@@ -4,8 +4,20 @@ import Gap from "../../atoms/Gap";
 import "./Sidebar.css";
 import User from "../../../assets/images/profile.jpg";
 import SidebarMenu from "../../atoms/SidebarMenu";
+import { useHistory } from "react-router-dom";
 
-const Sidebar = () => {
+const Sidebar = ({
+  beranda,
+  jelajahi,
+  notifikasi,
+  pesan,
+  markah,
+  daftar,
+  profil,
+  selengkapnya,
+}) => {
+  const history = useHistory();
+
   return (
     <div className="sidebar">
       <div className="logo">
@@ -23,8 +35,9 @@ const Sidebar = () => {
               </g>
             </svg>
           }
-          active
           label="Beranda"
+          active={beranda ? true : false}
+          onClick={() => history.push("/home")}
         />
         <SidebarMenu
           svg={
@@ -35,6 +48,8 @@ const Sidebar = () => {
             </svg>
           }
           label="Jelajahi"
+          active={jelajahi ? true : false}
+          onClick={() => history.push("/jelajahi")}
         />
         <SidebarMenu
           svg={
