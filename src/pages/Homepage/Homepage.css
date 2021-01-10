@@ -1,0 +1,86 @@
+.homepage {
+    color: #fff;
+    display: flex;
+}
+
+.homepage .left {
+    width: 23.2vw;
+    overflow: hidden;
+}
+
+.homepage .middle {
+    width: 46vw;
+    text-align: left;
+    border-left: 1px solid #383e42;
+    box-sizing: border-box;
+}
+
+.homepage .middle .content-middle {
+    margin-top: 70px;
+}
+
+.homepage .right {
+    border-left: 1px solid #383e42;
+    width: 33.7vw;
+    text-align: left;
+    padding: 10px 50px 20px 30px;
+    box-sizing: border-box;
+}
+
+.homepage .right .search {
+    width: 100%;
+    border-radius: 50px;
+    background-color: #253341;
+    display: flex;
+    align-items: center;
+}
+
+.homepage .right .search .icon {
+    width: 20px;
+    fill: #576674;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.homepage .right .search input{
+    width: 70%;
+    padding: 15px 10px 12px 10px;
+    background-color: #253341;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    color: #576674;
+}
+
+.homepage .right .trend {
+    background-color: #192734;
+    border-radius: 20px;
+    padding: 10px 0;
+}
+
+.homepage .right .trend .trend-header {
+    border-bottom: 1px solid #38444D;
+}
+
+.homepage .right .trend .trend-label {
+    padding: 0 20px;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.homepage .right .trend .icon {
+    width: 28px;
+    fill: #1DA1F2;
+    margin-right: 20px;
+}
+
+.homepage .right .trend .trend-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.homepage .right .trend .more {
+    padding: 10px 20px;
+    color: #1D96E1;
+}

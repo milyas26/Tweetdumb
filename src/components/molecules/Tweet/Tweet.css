@@ -1,0 +1,68 @@
+.tweet-item {
+    padding: 10px 20px;
+    border-bottom: 1px solid #383e42;
+    cursor: pointer;
+}
+
+.tweet-item:hover{
+    background-color: #1b272e;
+}
+
+.tweet-item .user-info {
+    display: flex;
+}
+
+.tweet-item .user-info .avatar {
+    margin: 5px 0;
+}
+
+.tweet-item .user-info .detail .username {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.tweet-item .user-info .detail .username p {
+    margin: 0;
+    margin-right: 10px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.tweet-item .user-info .detail .username span {
+    color: #8899A6;
+}
+
+.tweet-item .user-info .detail .content {
+    margin-left: 10px;
+    margin: 0 10;
+    padding: 0;
+}
+
+.tweet-item .user-info .detail .content p {
+    margin: 0;
+    color: rgb(223, 222, 222);
+}
+
+.tweet-item .stats {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tweet-item .stats .item-tweet {
+    display: flex;
+    align-items: center;
+}
+
+
+.tweet-item .stats .item-tweet svg{
+    width: 20px;
+    fill: #8899A6;
+    margin-left: 10px;
+    display: block;
+    margin-right: 5px;
+}
+.tweet-item .stats .item-tweet span {
+    color:#8899A6;
+}

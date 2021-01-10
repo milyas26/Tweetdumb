@@ -1,0 +1,29 @@
+.form-input {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    text-align: left;
+    border: 1px solid #8899A6;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.form-input label {
+    color: #8899A6;
+    font-size: 14px;
+}
+
+.form-input input {
+    font-size: 20px;
+    color: #fff;
+    width: 100%;
+    padding: 20px 0;
+    box-sizing: border-box;
+    height: 10px;
+    background-color: #15202B;
+    border: none;
+}
+
+.form-input input:focus{
+    outline: none;
+}

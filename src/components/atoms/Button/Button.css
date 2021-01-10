@@ -1,0 +1,28 @@
+.button {
+    font-weight: 600;
+    padding: 10px 20px;
+    background-color: #1DA1F2;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #0096f3;
+}
+
+.button.btn-secondary {
+    background-color: #15202B;
+    border: 1px solid #0096f3;
+}
+
+.button.btn-secondary:hover {
+    background-color: #052133;
+}
+
+.button.btn-follow {
+    background-color: #15202B;
+    border: 1px solid #1DA1F2;
+    color: #1DA1F2;
+    padding: 10px 20px;
+}

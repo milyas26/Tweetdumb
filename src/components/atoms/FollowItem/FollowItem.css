@@ -1,0 +1,35 @@
+.trend-item {
+    border-bottom: 1px solid #38444D;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.trend-item:hover{
+    background-color: #253341;
+}
+
+.trend-item .group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trend-item .follow-item {
+    display: flex;
+    align-items: center;
+}
+
+.trend-item .follow-item img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.trend-item .follow-item .follow-username {
+    display: flex;
+    flex-direction: column;
+}
+
+.trend-item .follow-item .follow-username p:first-child {
+    color: #fff;
+}

@@ -1,0 +1,19 @@
+.trend-item {
+    border-bottom: 1px solid #38444D;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.trend-item:hover{
+    background-color: #253341;
+}
+
+.trend-item span {
+    font-size: 14px;
+    color: #63707a;
+}
+
+.trend-item p {
+    margin: 0;
+    font-weight: 700;
+}

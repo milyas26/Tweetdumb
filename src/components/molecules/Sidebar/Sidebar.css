@@ -1,0 +1,37 @@
+.sidebar {
+    text-align: left;
+    height: 100vh;
+    width: 240px;
+    padding: 20px 40px;
+    padding-right: 30px;
+    padding-bottom: 0;
+    overflow: hidden;
+    position: fixed;
+}
+
+.sidebar .user-sidebar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar .user-sidebar-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar .user-sidebar .image img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.sidebar .user-sidebar .detail-user-sidebar p{
+    margin: 0;
+    margin-left: 10px;
+}
+
+.sidebar .user-sidebar .detail-user-sidebar p:last-child{
+    color: #555;
+}
