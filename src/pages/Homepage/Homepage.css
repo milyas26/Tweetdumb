@@ -27,31 +27,6 @@
     box-sizing: border-box;
 }
 
-.homepage .right .search {
-    width: 100%;
-    border-radius: 50px;
-    background-color: #253341;
-    display: flex;
-    align-items: center;
-}
-
-.homepage .right .search .icon {
-    width: 20px;
-    fill: #576674;
-    margin-left: 15px;
-    margin-top: 5px;
-}
-
-.homepage .right .search input{
-    width: 70%;
-    padding: 15px 10px 12px 10px;
-    background-color: #253341;
-    outline: none;
-    border: none;
-    font-size: 16px;
-    color: #576674;
-}
-
 .homepage .right .trend {
     background-color: #192734;
     border-radius: 20px;

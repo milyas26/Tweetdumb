@@ -1,0 +1,24 @@
+.jelajahi-page .middle .search-wrapper {
+    padding: 20px;
+    border-bottom: 1px solid #383e42;
+}
+
+.jelajahi-page .middle .title {
+    padding: 10px 20px;
+    border-bottom: 1px solid #383e42;
+}
+
+.jelajahi-page .middle .title p{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.jelajahi-page .middle .more {
+    padding: 10px 20px;
+}
+
+.jelajahi-page .middle .more p{
+    margin: 0;
+    color: #1DA1F2;
+}

@@ -8,7 +8,12 @@ const RelatedPerson = () => {
   return (
     <div className="related-person">
       <p>Orang yang Relevan</p>
-      <FollowItem img={User1} name="KARIRFESS" username="karirfess" isFull />
+      <FollowItem
+        img={User1}
+        name="Alexander Thian"
+        username="amrazing"
+        isFull
+      />
     </div>
   );
 };
